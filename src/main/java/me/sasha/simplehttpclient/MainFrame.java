@@ -99,14 +99,15 @@ public class MainFrame extends javax.swing.JFrame {
         jPanel4.setPreferredSize(new java.awt.Dimension(369, 500));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
-        jLabel1.setText("IP или домен");
+        java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("me/sasha/simplehttpclient/i18n"); // NOI18N
+        jLabel1.setText(bundle.getString("IP_or_domain")); // NOI18N
         jPanel2.add(jLabel1);
 
         hostInputField.setMinimumSize(new java.awt.Dimension(140, 19));
         hostInputField.setPreferredSize(new java.awt.Dimension(140, 19));
         jPanel2.add(hostInputField);
 
-        jLabel2.setText("Порт");
+        jLabel2.setText(bundle.getString("Port")); // NOI18N
         jPanel2.add(jLabel2);
 
         portInputField.setText("80");
@@ -122,12 +123,12 @@ public class MainFrame extends javax.swing.JFrame {
 
         jPanel4.add(jScrollPane2, java.awt.BorderLayout.CENTER);
 
-        executeQueryBtn1.setText("Выполнить запрос");
+        executeQueryBtn1.setText(bundle.getString("Execute_query")); // NOI18N
         jPanel4.add(executeQueryBtn1, java.awt.BorderLayout.SOUTH);
 
         jSplitPane1.setLeftComponent(jPanel4);
 
-        jTabbedPane1.addTab("Низкоуровневый", jSplitPane1);
+        jTabbedPane1.addTab(bundle.getString("Low_level"), jSplitPane1); // NOI18N
 
         jSplitPane2.setDividerLocation(400);
         jSplitPane2.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
@@ -136,13 +137,13 @@ public class MainFrame extends javax.swing.JFrame {
 
         methodSelect.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "GET", "POST", "PUT", "DELETE", " " }));
 
-        generateRequestBtn.setText("Сформировать запрос");
+        generateRequestBtn.setText(bundle.getString("Generate_query")); // NOI18N
 
-        executeQueryBtn2.setText("Выполнить запрос");
+        executeQueryBtn2.setText(bundle.getString("Execute_query")); // NOI18N
 
         jSplitPane3.setDividerLocation(300);
 
-        jLabel4.setText("Заголовки");
+        jLabel4.setText(bundle.getString("Headers")); // NOI18N
 
         headersTextArea.setColumns(20);
         headersTextArea.setRows(5);
@@ -169,7 +170,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         jSplitPane3.setLeftComponent(jPanel3);
 
-        jLabel5.setText("Тело запроса");
+        jLabel5.setText(bundle.getString("Body")); // NOI18N
 
         bodyTextArea.setColumns(20);
         bodyTextArea.setRows(5);
@@ -242,7 +243,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         jSplitPane2.setRightComponent(jScrollPane5);
 
-        jTabbedPane1.addTab("Высокоуровневый", jSplitPane2);
+        jTabbedPane1.addTab(bundle.getString("High_level"), jSplitPane2); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -256,8 +257,6 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 566, Short.MAX_VALUE))
         );
-
-        jTabbedPane1.getAccessibleContext().setAccessibleName("mjj");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

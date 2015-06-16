@@ -42,9 +42,6 @@
   </Layout>
   <SubComponents>
     <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="mjj"/>
-      </AccessibilityProperties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
       </AuxValues>
@@ -64,8 +61,10 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="&#x41d;&#x438;&#x437;&#x43a;&#x43e;&#x443;&#x440;&#x43e;&#x432;&#x43d;&#x435;&#x432;&#x44b;&#x439;">
-                <Property name="tabTitle" type="java.lang.String" value="&#x41d;&#x438;&#x437;&#x43a;&#x43e;&#x443;&#x440;&#x43e;&#x432;&#x43d;&#x435;&#x432;&#x44b;&#x439;"/>
+              <JTabbedPaneConstraints tabName="Low level">
+                <Property name="tabTitle" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                  <ResourceString bundle="me/sasha/simplehttpclient/i18n.properties" key="Low_level" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+                </Property>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -121,7 +120,9 @@
                   <SubComponents>
                     <Component class="javax.swing.JLabel" name="jLabel1">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="IP &#x438;&#x43b;&#x438; &#x434;&#x43e;&#x43c;&#x435;&#x43d;"/>
+                        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                          <ResourceString bundle="me/sasha/simplehttpclient/i18n.properties" key="IP_or_domain" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+                        </Property>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="hostInputField">
@@ -136,7 +137,9 @@
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel2">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="&#x41f;&#x43e;&#x440;&#x442;"/>
+                        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                          <ResourceString bundle="me/sasha/simplehttpclient/i18n.properties" key="Port" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+                        </Property>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="portInputField">
@@ -174,7 +177,9 @@
                 </Container>
                 <Component class="javax.swing.JButton" name="executeQueryBtn1">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#x412;&#x44b;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x44c; &#x437;&#x430;&#x43f;&#x440;&#x43e;&#x441;"/>
+                    <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                      <ResourceString bundle="me/sasha/simplehttpclient/i18n.properties" key="Execute_query" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+                    </Property>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
@@ -193,8 +198,10 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="&#x412;&#x44b;&#x441;&#x43e;&#x43a;&#x43e;&#x443;&#x440;&#x43e;&#x432;&#x43d;&#x435;&#x432;&#x44b;&#x439;">
-                <Property name="tabTitle" type="java.lang.String" value="&#x412;&#x44b;&#x441;&#x43e;&#x43a;&#x43e;&#x443;&#x440;&#x43e;&#x432;&#x43d;&#x435;&#x432;&#x44b;&#x439;"/>
+              <JTabbedPaneConstraints tabName="High level">
+                <Property name="tabTitle" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                  <ResourceString bundle="me/sasha/simplehttpclient/i18n.properties" key="High_level" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+                </Property>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -281,12 +288,16 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="generateRequestBtn">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#x421;&#x444;&#x43e;&#x440;&#x43c;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x442;&#x44c; &#x437;&#x430;&#x43f;&#x440;&#x43e;&#x441;"/>
+                    <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                      <ResourceString bundle="me/sasha/simplehttpclient/i18n.properties" key="Generate_query" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+                    </Property>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JButton" name="executeQueryBtn2">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#x412;&#x44b;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x44c; &#x437;&#x430;&#x43f;&#x440;&#x43e;&#x441;"/>
+                    <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                      <ResourceString bundle="me/sasha/simplehttpclient/i18n.properties" key="Execute_query" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+                    </Property>
                   </Properties>
                 </Component>
                 <Container class="javax.swing.JSplitPane" name="jSplitPane3">
@@ -328,7 +339,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel4">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="&#x417;&#x430;&#x433;&#x43e;&#x43b;&#x43e;&#x432;&#x43a;&#x438;"/>
+                            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                              <ResourceString bundle="me/sasha/simplehttpclient/i18n.properties" key="Headers" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JScrollPane" name="jScrollPane3">
@@ -380,7 +393,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel5">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="&#x422;&#x435;&#x43b;&#x43e; &#x437;&#x430;&#x43f;&#x440;&#x43e;&#x441;&#x430;"/>
+                            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                              <ResourceString bundle="me/sasha/simplehttpclient/i18n.properties" key="Body" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JScrollPane" name="jScrollPane4">
