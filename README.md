@@ -8,8 +8,8 @@ headers (Host and Content-length added automatically)
 
 body (if method is POST or PUT)
 ```
-###Download compiled
-at https://yadi.sk/d/JidZoDyigRJqK
+
+You can download Jar from [Maven Central](https://repo1.maven.org/maven2/com/github/kopilov/simplehttpclient/simplehttpclient/0.2/simplehttpclient-0.2.jar)
 
 If you do not have any Java software, download and install JRE (http://java.com/download)
 to run compiled program and add directory with 'java' program (jre/bin) to your
