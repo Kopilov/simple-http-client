@@ -1,11 +1,10 @@
-package me.sasha.simplehttpclient;
+package com.github.kopilov.simplehttpclient;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLEncoder;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JComboBox;

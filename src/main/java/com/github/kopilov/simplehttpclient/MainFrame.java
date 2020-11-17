@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package me.sasha.simplehttpclient;
+package com.github.kopilov.simplehttpclient;
 import javax.swing.JButton;
 import javax.swing.JTextArea;
 /**
@@ -99,7 +99,7 @@ public class MainFrame extends javax.swing.JFrame {
         jPanel4.setPreferredSize(new java.awt.Dimension(369, 500));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
-        java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("me/sasha/simplehttpclient/i18n"); // NOI18N
+        java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("com/github/kopilov/simplehttpclient/i18n"); // NOI18N
         jLabel1.setText(bundle.getString("IP_or_domain")); // NOI18N
         jPanel2.add(jLabel1);
 

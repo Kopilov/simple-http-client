@@ -1,4 +1,4 @@
-package me.sasha.simplehttpclient;
+package com.github.kopilov.simplehttpclient;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
