@@ -5,6 +5,9 @@
     <artifactId>simplehttpclient</artifactId>
     <version>0.2</version>
     <packaging>jar</packaging>
+    <name>Simple HTTP client</name>
+    <description>Small HTTP client with GUI</description>
+    <url>https://github.com/Kopilov/simple-http-client</url>
     <licenses>
         <license>
             <name>MIT License</name>
